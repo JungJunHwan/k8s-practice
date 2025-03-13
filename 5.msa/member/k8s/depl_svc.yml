@@ -4,7 +4,7 @@ metadata:
   name: jjh-msa-member-depl
   namespace: junan-ns
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: jjh-msa-member
