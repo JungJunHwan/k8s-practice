@@ -29,11 +29,11 @@ spec:
             secretKeyRef:
               name: jjh-app-secrets
               key: DB_PW
-        - name: REDIS_HOST
-          valueFrom:
-            secretKeyRef:
-              name: jjh-app-secrets
-              key: REDIS_HOST
+        # - name: REDIS_HOST
+        #   valueFrom:
+        #     secretKeyRef:
+        #       name: jjh-app-secrets
+        #       key: REDIS_HOST
         - name: AWS_KEY
           valueFrom:
             secretKeyRef:
