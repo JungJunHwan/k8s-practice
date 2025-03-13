@@ -1,7 +1,4 @@
 spring:
-  config:
-    activate:
-      on-profile: prod
   redis:
     # host: ${REDIS_HOST}
     host : redis-service
